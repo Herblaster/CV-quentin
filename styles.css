@@ -1,0 +1,159 @@
+/* Styles généraux */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* En-tête */
+.header {
+  background-color: #3498db;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 1.2em;
+  color: #eaeaea;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Blocs de contenu */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+/* Styles pour les blocs avec des dégradés doux */
+.box {
+  padding: 30px;
+  margin: 20px;
+  flex: 1 1 300px;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #f9e79f, #f7dc6f); /* Dégradé doux */
+}
+
+.green {
+  background: linear-gradient(135deg, #d4efdf, #a9dfbf); /* Dégradé vert pastel */
+}
+
+.yellow {
+  background: linear-gradient(135deg, #fcf3cf, #f9e79f); /* Dégradé jaune pastel */
+}
+
+.orange {
+  background: linear-gradient(135deg, #f5cba7, #f0b27a); /* Dégradé orange pastel */
+}
+
+.blue {
+  background: linear-gradient(135deg, #d6eaf8, #aed6f1); /* Dégradé bleu pastel */
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Sections de texte */
+.text-content {
+  text-align: left; /* Alignement à gauche pour les textes descriptifs */
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text-content h2 {
+  font-size: 2em;
+  color: #3498db;
+}
+
+.text-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Boutons de contact */
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Boutons de réseaux sociaux */
+.social-buttons {
+  margin-top: 20px;
+}
+
+.social-buttons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.social-buttons a.linkedin {
+  background-color: #0077b5; /* Couleur LinkedIn */
+}
+
+.social-buttons a.github {
+  background-color: #333; /* Couleur GitHub */
+}
+
+.social-buttons a:hover {
+  background-color: #555; /* Couleur au survol */
+}
+
