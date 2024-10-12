@@ -1,0 +1,97 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* gris clair */
+  color: #333;
+}
+
+/* Style de l'en-tête */
+.header {
+  text-align: center;
+  background-color: #1a1a1a; /* noir */
+  color: #ffffff; /* blanc */
+  padding: 2em 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.3em;
+  color: #a3c7ff; /* bleu clair */
+}
+
+/* Section de contenu */
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #ffffff; /* blanc */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #1a1a1a; /* noir */
+  font-size: 1.8em;
+  border-bottom: 2px solid #a3c7ff; /* bleu clair */
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  color: #4f4f4f; /* gris foncé */
+}
+
+/* Liens */
+a {
+  color: #1a1a1a; /* noir */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a3c7ff; /* bleu clair */
+}
+
+/* Style du formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  color: #1a1a1a; /* noir */
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #f8f8f8; /* gris très clair */
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #1a1a1a; /* noir */
+  color: #ffffff; /* blanc */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease
+
