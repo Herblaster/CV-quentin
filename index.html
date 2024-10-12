@@ -3,86 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quentin Sauvage - Mon CV en ligne</title>
+  <title>CV Quentin Sauvage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Section d'accueil -->
-  <header class="header">
-    <h1>Quentin Sauvage</h1>
-    <p>Alternant en BTS MCO | Créatif et dynamique</p>
-  </header>
+  <!-- Bande gauche -->
+  <div class="side-bar left-bar"></div>
+  
+  <!-- Contenu principal -->
+  <div class="main-content">
+    <!-- En-tête -->
+    <header class="header">
+      <div class="header-content">
+        <h1>Quentin Sauvage</h1>
+        <p>Alternant en BTS MCO | Créatif et Dynamique</p>
+      </div>
+    </header>
 
-  <!-- Section À propos de moi -->
-  <section id="about">
-    <h2>À propos de moi</h2>
-    <p>Passionné par l'innovation, je suis actuellement inscrit en alternance pour un BTS MCO et à la recherche d'une entreprise. Avec une forte capacité d'adaptation et une créativité développée, je suis prêt à relever de nouveaux défis et à contribuer au succès de mon équipe.</p>
-  </section>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">À propos de moi</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        <li><a href="#education">Éducation</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Section principale avec les blocs colorés -->
+    <section class="content">
+      <div class="box green"><a href="#about">À propos de moi</a></div>
+      <div class="box yellow"><a href="#experience">Expérience</a></div>
+      <div class="box orange"><a href="#education">Éducation</a></div>
+      <div class="box blue"><a href="#skills">Compétences</a></div>
+    </section>
+
+    <!-- Section À propos de moi -->
+    <section id="about" class="text-content">
+      <h2>À propos de moi</h2>
+      <p>Passionné par l'innovation, je suis actuellement inscrit en alternance pour un BTS MCO et à la recherche d'une entreprise. Avec une forte capacité d'adaptation et une créativité développée, je suis prêt à relever de nouveaux défis et à contribuer au succès de mon équipe.</p>
+    </section>
+
+    <!-- Autres sections... -->
+
+  </div>
+
+  <!-- Bande droite -->
+  <div class="side-bar right-bar"></div>
+</body>
+</html>
 
   <!-- Section Expérience professionnelle -->
-  <section id="experience">
-    <h2>Expérience professionnelle</h2>
-    <ul>
-      <li>
-        <h3>Vendeur Polyvalent - La Mie Caline, Calais</h3>
-        <p>• Gestion des stocks et commandes, gestion d’équipe, préparation d’offres commerciales et marketing, vente et relation client.</p>
-      </li>
-      <li>
-        <h3>Agent de Service Client - L’Olivier Assurance, Armatis Calais</h3>
-        <p>• Service clientèle, étude de cas complexes, amélioration de la qualité de service client.</p>
-      </li>
-      <li>
-        <h3>Surveillance et Sécurité - Cité Internationale de la Dentelle et de la Mode, Calais</h3>
-        <p>• Surveillance des salles, accueil des visiteurs, explications sur les expositions.</p>
-      </li>
-    </ul>
-  </section>
+<section id="experience" class="text-content">
+  <h2>Expérience professionnelle</h2>
+  <ul>
+    <li><strong>Vendeur Polyvalent</strong> - La Mie Caline, Calais
+      <ul>
+        <li>Gestion des stocks et des commandes</li>
+        <li>Gestion d’équipe</li>
+        <li>Préparation d’offres commerciales et marketing</li>
+        <li>Vente et relation client</li>
+      </ul>
+    </li><br>
+    
+    <li><strong>Agent de Service Client</strong> - L’Olivier Assurance, Armatis Calais
+      <ul>
+        <li>Service clientèle</li>
+        <li>Étude de cas complexes</li>
+        <li>Amélioration de la qualité de service client</li>
+      </ul>
+    </li><br>
+    
+    <li><strong>Surveillance et Sécurité</strong> - Cité Internationale de la Dentelle et de la Mode, Calais
+      <ul>
+        <li>Surveillance des salles</li>
+        <li>Accueil des visiteurs</li>
+        <li>Explications sur les expositions</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
 
   <!-- Section Éducation -->
-  <section id="education">
+  <section id="education" class="text-content">
     <h2>Éducation</h2>
     <ul>
-      <li>
-        <h3>Bac S Spécialité Physique Chimie - Lycée Sophie-Berthelot</h3>
-        <p>2015</p>
-      </li>
-      <li>
-        <h3>Licence de Musicologie - Université de Lille</h3>
-        <p>2020</p>
-      </li>
-      <li>
-        <h3>C.E.M de Guitare - C.R.D de Calais</h3>
-        <p>2020</p>
-      </li>
-      <li>
-        <h3>Formation IAS Assurance - Armatis Calais</h3>
-        <p>2021</p>
-      </li>
+      <li><strong>Bac S Spécialité Physique Chimie</strong> - Lycée Sophie-Berthelot, 2015</li><br>
+      <li><strong>Licence de Musicologie</strong> - Université de Lille, 2020</li><br>
+      <li><strong>C.E.M de Guitare</strong> - C.R.D de Calais, 2020</li><br>
+      <li><strong>Formation IAS Assurance</strong> - Armatis Calais, 2021</li>
     </ul>
   </section>
 
   <!-- Section Compétences -->
-  <section id="skills">
+  <section id="skills" class="text-content">
     <h2>Compétences</h2>
     <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Outils : Excel, Word, PowerPoint, Audacity, Musescore</li>
-      <li>Langues : Français (langue maternelle), Anglais B2, Espagnol B1</li>
+      <li>HTML, CSS, JavaScript</li><br>
+      <li>Outils : Excel, Word, PowerPoint, Audacity, Musescore</li><br>
+      <li>Langues : Français (langue maternelle), Anglais B2, Espagnol B1</li><br>
       <li>Supports numériques et réseaux sociaux</li>
     </ul>
   </section>
 
   <!-- Section Projets -->
-  <section id="projects">
+  <section id="projects" class="text-content">
     <h2>Projets</h2>
     <p>Publication de mon premier roman, création de projets musicaux et interculturels, organisation de concerts, création artistique et collaboration avec des artistes.</p>
   </section>
 
   <!-- Section Contact -->
-  <section id="contact">
+  <section id="contact" class="text-content">
     <h2>Contact</h2>
-    <!-- Formulaire utilisant Formspree -->
-    <form action="https://formspree.io/f/xeoqqoee" method="POST">
+    <form action="https://formspree.io/f/ton-URL-personnalisée" method="POST">
       <label for="name">Nom :</label>
       <input type="text" id="name" name="name" required>
       
@@ -97,4 +133,3 @@
   </section>
 </body>
 </html>
-
